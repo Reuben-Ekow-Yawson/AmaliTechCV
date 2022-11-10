@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous">
+    <title>Amalitech CV Format</title>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
+        }
+        
+      </script>
+    <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+        body{
+          /* font-style: ; */
+        }
+        .nameSide{
+          background-color: #0C4767;
+          color: #E1E1E1;
+        }
+        
+      </style>
+  </head>
+  <body>
+    <div class="col-12">
+      <div class="mx-auto">
+        <!-- photo and name pane -->
+        <div class="mx-auto bg-white mt-3 shadow-sm overflow-hidden max-w-5xl">
+          <div class="flex text-dark">
+            <div class="d-flex justify-content-center align-items-center">
+              <div class="h-80 w-96 bg-gray-500">
+                <img class="object-fit  h-80 w-96" id="profile"
+                  src=""
+                  alt="Modern building architecture">
+              </div>
+            </div>
+            <div class="p-3 w-full nameSide">
+              <!-- <div class="uppercase tracking-wide fs-1 text-slate-100 font-semibold flex justify-end"><div class="block">Amalit<span class="text-orange-600">e</span>ch<p class="d-flex justify-content-end text-sm">Services</p></div></div> -->
+              <div class="w-full pr-10 mt-6 d-flex justify-content-end">
+                <img src="./amalitech logo.png" alt="" class="img-fluid  w-96 h-20 ">
+              </div>
+              <div class="mt-16 ml-10 text-4xl">
+                <h1 class="block fs-1 leading-tight font-bold text-white " id="name">Reuben</h1>
+                <p class=" fs-3 font-medium " id="title">Senior UI/UX Designer</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- photo and name pane ends here -->
+
+        <!-- skills and work experience starts here -->
+        <div class="mx-auto bg-white mt-2 shadow-sm overflow-hidden max-w-5xl">
+          <div class="flex text-dark">
+            <div class="d-flex justify-content-center align-items-center  bg-slate-200">
+              <div class="h-full w-96 pt-3 px-lg-5">
+                <div class="block">
+                  <h3 class="uppercase tracking-wide text-xl text-sky-600
+                    font-semibold">Skills/Proficiency </h3>
+                  <div class="">
+                    <p>Proficient - Intermediate - Basic</p>
+                    <p>
+                      &nbsp;&nbsp;+++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+                    </p>
+                  </div>
+                  <div class="text-slate-600 mb-5" id="skills">
+                    <p></p>
+                  </div>
+                </div>
+
+                <div class="block">
+                  <h3 class="uppercase tracking-wide text-xl text-sky-600
+                    font-semibold mt-3">Tools </h3>
+                    <div class="text-slate-600 mb-5" id="tools">
+                      <p></p>
+                    </div>
+                </div>
+
+                <div class="block">
+                  <h3 class="uppercase tracking-wide text-xl text-sky-600
+                    font-semibold mt-3">Awards & Certifications </h3>
+                    <div class="text-slate-600 mb-5" id="awards">
+                      <!-- <p class="">Certificate of completion of
+                        the Awesomity Lab
+                        Bootcamp
+                        Jan 2022 to April 2022
+                        Certificate of completion of
+                        Android Development Course
+                        in WeCode Programme
+                        June 2021 to Aug 2021</p> -->
+                    </div>
+                    </div>
+
+                <div class="block">
+                  <h3 class="uppercase tracking-wide text-xl text-sky-600
+                    font-semibold mt-3">Volunteer work & interest </h3>
+                    <div class="text-slate-600 mb-5" id="Volunteer"></div>
+                  <!-- <p class="">Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Qui soluta praesentium
+                    voluptatibus distinctio eum ipsam minima dignissimos magni
+                    voluptatum enim delectus quae totam, tempora, quas illo aut
+                    fugit, atque quasi?</p> -->
+                </div>
+
+                <div class="block ">
+                  <h3 class="uppercase tracking-wide text-xl text-sky-600
+                    font-semibold mt-3">Languages </h3>
+                    <div class="text-slate-500">
+                      <p>Native – Fluent – Basic</p>
+                      <p>
+                        &nbsp;+++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;++&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;+
+                      </p>
+                    </div>
+                    <div class="text-slate-700" id="languages">
+                      <p></p>
+                      <!-- <p class="">English (+++)</p>
+                      <p class="text-slate-600">Swahili (+++)</p>
+                      <p class="text-slate-600">French (+++)</p>
+                      <p class="text-slate-600">German (++)</p> -->
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="pt-3 pl-10">
+              <!-- A block of Work Experience -->
+              <div class="uppercase tracking-wide text-xl text-sky-600
+                font-semibold">Work Experience</div>
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Senior UI/UX Designer</span>
+              <div class=""><p class="mt-1 text-slate-500 ">AmaliTech Services
+                  GmbH, Takoradi, Ghana.<p class="text-slate-500 italic">March
+                    2022 to present</p></p></div>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li>Led the backend development for AmaliTech’s Enterprise
+                    Resource Management (ERP) system using a scalable
+                    microservices architecture.</li>
+                  <li>Responsible for overall user interface design and user
+                    experience for a SaaS Virtual Platform using View and Note</li>
+                  <li>Trained and mentored junior designers at the service
+                    centre and helped assess them professionally.</li>
+                </ul>
+              </div>
+              <!-- Another Block of Experience -->
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Junior Front-end Developer</span>
+              <p class="mt-1 text-slate-500 ">AmaliTech Services GmbH, Takoradi,
+                Ghana.<p class="text-slate-500 italic">March 2022 to present</p></p>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li>Successfully developed front-end views for Blogging,
+                    Vlogging and Podcast functionalities for a Virtual platform
+                    for the German Chamber of Commerce in Ghana (Virtualihk.net)</li>
+                  <li>Successfully created front-end views for AmaliFair
+                    (virtual event platform)</li>
+                </ul>
+              </div>
+              <!-- Another Block of Experience -->
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Intern</span>
+              <p class="mt-1 text-slate-500 "> AmaliTech Services GmbH,
+                Takoradi, Ghana.<p class="text-slate-500 italic">March 2022 to
+                  present</p></p>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li>Learned about the operations of the company's software
+                    programming team</li>
+                  <li>Coordinated communications between multiple departments</li>
+                </ul>
+              </div>
+
+              <!-- A block of Education -->
+              <div class="uppercase tracking-wide text-xl text-sky-600
+                font-semibold mt-5">Education</div>
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Graduate Training Programme</span>
+              <p class="mt-1 text-slate-500 "><span>Institution:</span>
+                AmaliTech Services GmbH, Takoradi, Ghana.<p
+                  class="text-slate-500 italic">March 2022 to present</p></p>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <!-- Another Block of Experience -->
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Master of Science in Computer Science</span>
+              <p class="mt-1 text-slate-500 "><span>Institution: </span>Stanford
+                University, Stanford, USA.<p class="text-slate-500 italic">March
+                  2022 to present</p></p>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+              <!-- Another Block of Experience -->
+              <span class="block mt-1 text-lg leading-tight font-medium
+                text-slate-500">Bachelor of Science in Computer Science</span>
+              <p class="mt-1 text-slate-500 "><span>Institution: </span>University
+                Of California, San Diego, USA.<p class="text-slate-500 italic">March
+                  2000 to April 2004</p></p>
+              <div class="mb-4">
+                <ul class="list-disc pl-10 mt-2 text-slate-500">
+                  <li></li>
+                  <li></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- skills and work experience ends here -->
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+      <script src="./getData.js"></script>
+      <script src="./data.json"></script>
+  </body>
+</html>

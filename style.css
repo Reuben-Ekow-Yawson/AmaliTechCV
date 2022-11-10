@@ -1,0 +1,64 @@
+.templateBody{
+ width: 100%;
+ border: 2px solid red;
+ /* height: 100vh; */
+ /* padding: 2px; */
+ display: flex;
+}
+.leftSide{
+    border: 1px solid rgb(19, 149, 56);
+    flex: 1;
+    /* height: inherit; */
+}
+.rightSide{
+    border: 2px solid rebeccapurple;
+    flex: 2;
+}
+.imgSide > img{
+    height: 300px;
+    /* width: 300px; */
+}
+.nameSide{
+    height: 300px;
+    border: 1px solid red;
+}
+.profileWrap{
+    background: rgba(139, 135, 135, 0.386);
+    padding: 20px;
+}
+.skill, .tools, .awards{
+    margin-bottom: 20px;
+}
+.skill > h1, .tools > h1, .awards > h1{
+    color: rgb(15, 172, 190);
+    font-size: 24px;  
+}
+.skill, .tools > li{
+list-style: none;
+}
+
+
+
+/* 
+.topSection{
+   display: flex; 
+}
+
+.nameSide > img{
+    border:1px solid rebeccapurple;
+
+    width: 150px;
+}
+.nameSide > div{
+    border: 1px solid royalblue;
+    bottom: 0px;
+}
+.bodySection{
+    display: flex;
+}
+.skill{
+flex: 2;
+}
+.workSide{
+    flex: 3; */
+}
